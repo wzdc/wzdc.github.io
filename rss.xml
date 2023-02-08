@@ -1,0 +1,632 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>无知的错</title>
+        <subtitle></subtitle>
+        <icon>http://www.wzdc.cc/images/favicon.ico</icon>
+        <link>http://www.wzdc.cc</link>
+        <author>
+          <name>无知的错</name>
+        </author>
+        <description>计算机专业学生，喜欢二次元</description>
+        <language>zh-CN</language>
+        <pubDate>Tue, 07 Feb 2023 20:21:00 +0800</pubDate>
+        <lastBuildDate>Tue, 07 Feb 2023 20:21:00 +0800</lastBuildDate>
+        <category term="无知的错" />
+        <category term="博客" />
+        <item>
+            <guid isPermalink="true">http://www.wzdc.cc/archives/7/</guid>
+            <title>博客换主题了</title>
+            <link>http://www.wzdc.cc/archives/7/</link>
+            <category term="闲聊" scheme="http://www.wzdc.cc/categories/chat/" />
+            <pubDate>Tue, 07 Feb 2023 20:21:00 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;Hello 各位，今天换主题了，其实很早就想换了，因为换了新主题要配置好多东西所以就一直没换。加上&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2FyZ3ZjaHMvaGV4by10aGVtZS1wYXJ0aWNsZXg=&#34;&gt; particlex&lt;/span&gt; 有人维护，所以每次我遇到问题都会在 GitHub 上提 issuss，24 小时内就能得到回复并解决问题了。&lt;/p&gt;
+&lt;p&gt;为什么要换主题？因为原来的主题 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2FyZ3ZjaHMvaGV4by10aGVtZS1wYXJ0aWNsZXg=&#34;&gt;particlex&lt;/span&gt; 首次加载太慢了（估计是&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2FyZ3ZjaHMvaGV4by10aGVtZS1wYXJ0aWNsZXg=&#34;&gt; particlex&lt;/span&gt; 字体太多啦），被群友说了 qaq~&lt;/p&gt;
+&lt;p&gt;因为新主题不支持 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXNjdXMuYXBwL3poLUNO&#34;&gt;giscus&lt;/span&gt; 加上我的博客没人评论，所以评论系统也换了。目前还没有弄评论 / 回复邮件提醒，弄这个东西弄了好久了，暂时先搁置了。&lt;/p&gt;
+&lt;h1 id=&#34;截图留念&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#截图留念&#34;&gt;#&lt;/a&gt; 截图留念&lt;/h1&gt;
+&lt;p&gt;拍摄于：2023 年 1 月 16 日 9:57:53&lt;br /&gt;
+&lt;img data-src=&#34;siteshot.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;拍摄于：2023 年 2 月 8 日 23:28:52&lt;br /&gt;
+&lt;img data-src=&#34;2023-02-08,232852.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://www.wzdc.cc/archives/6/</guid>
+            <title>K歌也能开挂了</title>
+            <link>http://www.wzdc.cc/archives/6/</link>
+            <category term="教程" scheme="http://www.wzdc.cc/categories/tutorial/" />
+            <pubDate>Sat, 04 Feb 2023 18:57:26 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;前几个月看到一个视频，K 歌内放纯人声可以得高分。&lt;/p&gt;
+&lt;p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=475065773&amp;bvid=BV1eK411o7yb&amp;cid=888622803&amp;page=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34; width=&#34;100%&#34; height=&#34;500&#34;&gt; &lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p&gt;感觉挺有意思的，我也去玩了玩。&lt;/p&gt;
+&lt;p&gt;前提是你要卡好时间（如果你会写程序你还可以开发一个 K 歌卡点软件），纯人声的音频质量差和没卡好点都会影响分数。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;寻找纯人声音频：纯人声可以在网上找，也可以使用伴奏人声分离软件分离出来。&lt;/li&gt;
+&lt;li&gt;卡点：按照上面的视频卡点即可（这个最难了）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;下面是内放教程&lt;/p&gt;
+&lt;h1 id=&#34;1模拟器内放&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1模拟器内放&#34;&gt;#&lt;/a&gt; 1. 模拟器内放&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;部分 K 歌软件可能不兼容模拟器&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;下载安卓模拟器（自己喜欢用什么模拟器就用什么模拟器）&lt;/li&gt;
+&lt;li&gt;在模拟器上下载 K 歌软件&lt;/li&gt;
+&lt;li&gt;右键 &lt;code&gt;喇叭图标&lt;/code&gt;   点击 &lt;code&gt;声音&lt;/code&gt;   再点击 &lt;code&gt;录制&lt;/code&gt;  右键 &lt;code&gt;立体声混音&lt;/code&gt; 点击 &lt;code&gt;启用&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;在模拟器设置默认麦克风设备为立体声混音&lt;/li&gt;
+&lt;li&gt;将模拟器声音关闭&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;2将电脑或其他设备声音内放到手机&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2将电脑或其他设备声音内放到手机&#34;&gt;#&lt;/a&gt; 2. 将电脑（或其他设备）声音内放到手机&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;准备 AUX 线、耳机、耳麦分离线&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;耳麦分离线插手机麦克风孔，耳麦分离线的耳机孔插耳机，麦克风孔插 AUX 线，AUX 线另一头连接电脑的耳机孔。连接好后就可以测试一下有没有内放效果了。&lt;br /&gt;
+&lt;img data-src=&#34;a.png&#34; alt=&#34;参考图&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;我遇到的问题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#我遇到的问题&#34;&gt;#&lt;/a&gt; 我遇到的问题&lt;/h2&gt;
+&lt;p&gt;当时我遇到了一个问题，就是连接好后 &lt;code&gt;使用的麦克风仍然是手机内置的麦克风&lt;/code&gt; 。于是我就先接好电脑和耳机，最后再把耳麦分离线插手机耳机孔就好了。某一天又发现了这个问题并且按照刚刚的操作也不行，我就重启了一下电脑再接手机就好了。于是我每次遇到这个问题都重启电脑。&lt;/p&gt;
+&lt;p&gt;我还遇到了接好后 &lt;code&gt;会把手机音量调大&lt;/code&gt; 问题，估计是触发了耳机控制，没有解决方法。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://www.wzdc.cc/archives/5/</guid>
+            <title>VPN Gate 免费纯净IP</title>
+            <link>http://www.wzdc.cc/archives/5/</link>
+            <category term="教程" scheme="http://www.wzdc.cc/categories/tutorial/" />
+            <category term="网络代理" scheme="http://www.wzdc.cc/tags/network-proxy/" />
+            <category term="VPN" scheme="http://www.wzdc.cc/tags/VPN/" />
+            <pubDate>Fri, 03 Feb 2023 10:13:15 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;VPN Gate 相信有很多小伙伴认识甚至已经用过了&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;免责声明：隐私安全无法保障，VPNGate 与本站无关。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;打开 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudnBuZ2F0ZS5uZXQvY24v&#34;&gt;VPN Gate&lt;/span&gt;，选择一个 IP （建议选择下面的韩国 IP）。&lt;/li&gt;
+&lt;li&gt;复制 IP，去 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuaXAycHJveHkuY29tL2RlbW8/bGFuZz16aF9DTg==&#34;&gt;ip2proxy&lt;/span&gt; 查询 IP 是否为代理，再去 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvU3BlY2lhbDolRTYlODglOTElRTclOUElODQlRTglQjQlQTElRTclOEMlQUU=&#34;&gt;维基百科&lt;/span&gt; 查询 IP 是否被封。&lt;/li&gt;
+&lt;li&gt;没有问题就可以进行连接了（看支持的连接方式和 VPN Gate 的连接指南进行连接）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;中国大陆用户连不上可以套个节点连，具体如下&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;如果你已经有软路由，请在软路由开一个节点，并设置代理所有端口，电脑连 VPN&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;2023-02-03110941.png&#34; alt=&#34;openwrt passwall插件设置代理所有端口&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;如果你没有软路由需要下载一个虚拟机、V2rayN 或 clash 开启 Tun 模式（只要是网卡代理都可以），虚拟机连接 VPN（当然你有更好的方法也可以告诉我）。最后附上一张效果图&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;photo_2023-02-02_23-40-32.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://www.wzdc.cc/archives/4/</guid>
+            <title>随机图片</title>
+            <link>http://www.wzdc.cc/archives/4/</link>
+            <category term="API" scheme="http://www.wzdc.cc/categories/API/" />
+            <category term="开源" scheme="http://www.wzdc.cc/tags/open-source/" />
+            <category term="php" scheme="http://www.wzdc.cc/tags/php/" />
+            <pubDate>Fri, 20 Jan 2023 22:31:46 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;调用百度、360、搜狗、神马图片搜索接口搜索一张图并返回。支持手机和电脑不同关键字搜索。&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3d6ZGMvcmFuZG9tLXBpY3R1cmU=&#34;&gt; 下载源码&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意：请求太快可能会被搜索引擎封禁或弹验证码哦！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;请求&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#请求&#34;&gt;#&lt;/a&gt; 请求&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;请求地址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9hcGkud3pkYy5jYy9pbWFnZS5waHA=&#34;&gt;https://api.wzdc.cc/image.php&lt;/span&gt;&lt;br /&gt;
+ 请求方式：GET/POST&lt;br /&gt;
+ 请求示例：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9hcGkud3pkYy5jYy9pbWFnZS5waHA/c291cmNlPWJhaWR1JmFtcDt0eXBlPWRvd25sb2FkJmFtcDtzZWFyY2g9JUU3JTk0JUI1JUU4JTg0JTkxJUU0JUJBJThDJUU2JUFDJUExJUU1JTg1JTgzJUU1JUEzJTgxJUU3JUJBJUI4JmFtcDtxc2VhcmNoPSVFNiU4OSU4QiVFNiU5QyVCQSVFNCVCQSU4QyVFNiVBQyVBMSVFNSU4NSU4MyVFNSVBMyU4MSVFNyVCQSVCOA==&#34;&gt;https://api.wzdc.cc/image.php?source=baidu&amp;amp;type=download&amp;amp;search = 电脑二次元壁纸 &amp;amp; qsearch = 手机二次元壁纸&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;参数&lt;/th&gt;
+&lt;th&gt;必填&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;th&gt;默认&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;search&lt;/td&gt;
+&lt;td&gt;是&lt;/td&gt;
+&lt;td&gt;要搜索的图片（例如电脑壁纸）&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;pesearch&lt;/td&gt;
+&lt;td&gt;否&lt;/td&gt;
+&lt;td&gt;手机访问时要搜索的图片（例如手机壁纸）&lt;/td&gt;
+&lt;td&gt;（使用 q 参数传入的值）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;source&lt;/td&gt;
+&lt;td&gt;是&lt;/td&gt;
+&lt;td&gt;搜索引擎（可选值：baidu、360、sougou、shenma）&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;type&lt;/td&gt;
+&lt;td&gt;否&lt;/td&gt;
+&lt;td&gt;数据返回类型（可选值参见&lt;a href=&#34;#type%E5%8F%AF%E9%80%89%E5%80%BC&#34;&gt; type 可选值&lt;/a&gt;)&lt;/td&gt;
+&lt;td&gt;json&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;random&lt;/td&gt;
+&lt;td&gt;否&lt;/td&gt;
+&lt;td&gt;随机数范围&lt;/td&gt;
+&lt;td&gt;1,100&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;type可选值&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#type可选值&#34;&gt;#&lt;/a&gt; type 可选值&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;可选值&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;json&lt;/td&gt;
+&lt;td&gt;压缩的 JSON 格式&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;img&lt;/td&gt;
+&lt;td&gt;由服务器下载原站图片后再返回给客户端&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;thumburl&lt;/td&gt;
+&lt;td&gt;跳转到搜索引擎保存的图片地址&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;redirect&lt;/td&gt;
+&lt;td&gt;跳转到图片原站&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;download&lt;/td&gt;
+&lt;td&gt;重定向到百度的图片下载 API&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;返回&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#返回&#34;&gt;#&lt;/a&gt; 返回&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;参数&lt;/th&gt;
+&lt;th&gt;数据类型&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;url&lt;/td&gt;
+&lt;td&gt;String&lt;/td&gt;
+&lt;td&gt;原站图片链接&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;thumburl&lt;/td&gt;
+&lt;td&gt;String&lt;/td&gt;
+&lt;td&gt;搜索引擎保存的图片链接&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;download&lt;/td&gt;
+&lt;td&gt;String&lt;/td&gt;
+&lt;td&gt;百度图片下载接口链接&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;p&lt;/td&gt;
+&lt;td&gt;int&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;返回成功示例&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#返回成功示例&#34;&gt;#&lt;/a&gt; 返回成功示例&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://api.wzdc.cc/image.php?source=baidu&amp;amp;type=download&amp;amp;search=%E7%94%B5%E8%84%91%E4%BA%8C%E6%AC%A1%E5%85%83%E5%A3%81%E7%BA%B8&amp;amp;qsearch=%E6%89%8B%E6%9C%BA%E4%BA%8C%E6%AC%A1%E5%85%83%E5%A3%81%E7%BA%B8&#34; alt=&#34;随即图示例&#34; /&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight json&#34;&gt;&lt;figcaption data-lang=&#34;JSON&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;url&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;http://i0.hdslb.com/bfs/article/fe192e64dae02b5fed42df441e2579c855b51bce.jpg&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;thumburl&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;https://kkimgs.yisou.com/ims?kt=url&amp;amp;at=smstruct&amp;amp;key=aHR0cDovL2kwLmhkc2xiLmNvbS9iZnMvYXJ0aWNsZS9mZTE5MmU2NGRhZTAyYjVmZWQ0MmRmNDQxZTI1NzljODU1YjUxYmNlLmpwZw==&amp;amp;sign=yx:HufPonuXWhp4CgJ-nIqA1HUzjvc=&amp;amp;tv=400_400&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;download&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;https://image.baidu.com/search/down?tn=download&amp;amp;ipn=dwnl&amp;amp;word=download&amp;amp;ie=utf8&amp;amp;fr=result&amp;amp;url=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2Ffe192e64dae02b5fed42df441e2579c855b51bce.jpg&amp;amp;thumburl=https%3A%2F%2Fkkimgs.yisou.com%2Fims%3Fkt%3Durl%26at%3Dsmstruct%26key%3DaHR0cDovL2kwLmhkc2xiLmNvbS9iZnMvYXJ0aWNsZS9mZTE5MmU2NGRhZTAyYjVmZWQ0MmRmNDQxZTI1NzljODU1YjUxYmNlLmpwZw%3D%3D%26sign%3Dyx%3AHufPonuXWhp4CgJ-nIqA1HUzjvc%3D%26tv%3D400_400&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;p&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;41&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;返回失败&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#返回失败&#34;&gt;#&lt;/a&gt; 返回失败&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;缺少必要参数则页面会空白&lt;/li&gt;
+&lt;li&gt;非必要参数错误则传入的参数不会生效&lt;/li&gt;
+&lt;li&gt;必要参数有误则无法获取链接&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://www.wzdc.cc/archives/3/</guid>
+            <title>我做机器人的经历</title>
+            <link>http://www.wzdc.cc/archives/3/</link>
+            <category term="闲聊" scheme="http://www.wzdc.cc/categories/chat/" />
+            <category term="经历" scheme="http://www.wzdc.cc/tags/experience/" />
+            <pubDate>Thu, 19 Jan 2023 23:13:08 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;起初&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#起初&#34;&gt;#&lt;/a&gt; 起初&lt;/h1&gt;
+&lt;p&gt;（我没记错的话）我看到我的好友群里有一个 QQ 机器人，我就问好友是怎么弄的，群主就给我推荐了一个资源网站，我在那个网站上下载了一个手机版的机器人，手机版的也挺好，这样就不需要购买主机挂机器人了。这个软件功能太少了，和好友群里的机器人对比一点都不一样。之后我换了好多个机器人软件，用过酷 Q（因为不会用就卸了）等软件（具体不太记得了）。&lt;/p&gt;
+&lt;h1 id=&#34;刷赞机器人&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#刷赞机器人&#34;&gt;#&lt;/a&gt; 刷赞机器人&lt;/h1&gt;
+&lt;p&gt;我看到好友群里有一个机器人会刷名片赞，新入群和每天签到会送名片赞，我也想搞就问好友怎么弄，好友也和我说了用什么机器人，还要买授权、名片赞，之后我买完后朋友就帮我弄了，我就去其他群发我的群送名片赞，结果被踢了，但是还是搞来了一些人。&lt;/p&gt;
+&lt;h1 id=&#34;题外话名片赞&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#题外话名片赞&#34;&gt;#&lt;/a&gt; 题外话：名片赞&lt;/h1&gt;
+&lt;p&gt;当时看到别人网站有卖名片赞的，我也想弄，我的好友就让我对接什么平台，那个平台名片赞价格低，直接中间商赚差价。我小号多想自营，但是我不会弄，我问好友好友也没有明确的答复。&lt;/p&gt;
+&lt;h1 id=&#34;晨风qq机器人&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#晨风qq机器人&#34;&gt;#&lt;/a&gt; 晨风 QQ 机器人&lt;/h1&gt;
+&lt;p&gt;用了那么多 QQ 机器人软件，最终我选择了晨风 QQ 机器人，而且最后的几年里也一直在用晨风 QQ 机器人&lt;/p&gt;
+&lt;h2 id=&#34;手机版晨风qq机器人疑似盗号软件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#手机版晨风qq机器人疑似盗号软件&#34;&gt;#&lt;/a&gt; 手机版晨风 QQ 机器人（疑似盗号软件）&lt;/h2&gt;
+&lt;p&gt;我之前在网上找到了一个手机版晨风 QQ 机器人，因为用手机挂就不用租台电脑挂了，登录试了好多次都显示登录失败，质疑他是盗号软件是因为我看到一个盗号软件生成器的软件他可以生成手机版晨风 QQ 机器人的盗号软件&lt;/p&gt;
+&lt;h2 id=&#34;起初-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#起初-2&#34;&gt;#&lt;/a&gt; 起初&lt;/h2&gt;
+&lt;p&gt;我用的是破解版，词库是网上搜的，起初我想拿这个机器人管群，机器人入群后，开启聊天功能群确实活跃了不少，有的群友喜欢机器人，有的群友不喜欢，也有很多人退群（估计是太吵了），于是就造成了有时开娱乐功能，有时不开。我又发投票，最终我决定开娱乐功能，群默认关闭聊天功能，私聊机器人是可以单独和机器人聊天的。&lt;/p&gt;
+&lt;p&gt;我在使用破解版的时候，遇到过 QQ 机器人发了一些奇怪的消息，当时我 QQ 机器人在群里发了 &lt;code&gt;nmsl&lt;/code&gt; 、 &lt;code&gt;..&lt;/code&gt;  这种不正常的消息，群友就发了几个问号，我去查登录记录发现并没有异常登录记录，起初以为是远程账号被盗于是就改了远程账号，现在想起来觉得是破解版有后台。&lt;/p&gt;
+&lt;h2 id=&#34;之后&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#之后&#34;&gt;#&lt;/a&gt; 之后&lt;/h2&gt;
+&lt;p&gt;QQ 更新，管理员可以撤回成员消息了，晨风 QQ 机器人也随之更新支持撤回违禁词消息，因为我用的是破解版所以没有这种功能，于是我又去找能撤回消息的晨风 QQ 机器人破解版，但是没找到，在我犹豫了很多次后最终还是花了 200 元买了正版授权。&lt;/p&gt;
+&lt;h2 id=&#34;充值&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#充值&#34;&gt;#&lt;/a&gt; 充值&lt;/h2&gt;
+&lt;h3 id=&#34;起初-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#起初-3&#34;&gt;#&lt;/a&gt; 起初&lt;/h3&gt;
+&lt;p&gt;我开启娱乐功能是根据群友投票来的，他们很喜欢我的机器人，还专门搞了一个团队叫 &lt;code&gt;临清&lt;/code&gt; ，还莫名其妙收了一个徒弟（他一直叫我师傅，但我却一直不认可这个徒弟，因为我不想收徒）&lt;/p&gt;
+&lt;h3 id=&#34;之后-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#之后-2&#34;&gt;#&lt;/a&gt; 之后&lt;/h3&gt;
+&lt;p&gt;我的朋友也在玩机器人，他让我把他的金币调高，但是我不想破坏游戏平衡，于是就说你给我一块钱我给你一千万金币，他还真给我一块钱了，我也真给他金币了，于是就起内讧了。我们就开始搞充值赚钱了，赚到的钱五五分，价格如下&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;价格（人民币）&lt;/th&gt;
+&lt;th&gt;数量&lt;/th&gt;
+&lt;th&gt;游戏虚拟币&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;1000000&lt;/td&gt;
+&lt;td&gt;金钱&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;10000&lt;/td&gt;
+&lt;td&gt;威望&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;我们最贵的武器 / 道具只卖一千万金币（10 人民币），我们还把机器人租给其他人，5 元一个月（很划算吧！）&lt;/p&gt;
+&lt;p&gt;我还花了 50 元买了 codepay 的微信支付授权 (现在已经跑路了)、70 元买了彩虹代刷的授权 (现在已经停运了)，这样就不需要找我们人工充值了。使用了 PHP 写了一个推送系统，机器人每隔一分钟去服务器接收充值指令，如果有人充值不会立马到账，而是要等机器人去服务器上接收指令才会到账。服务器、授权费等这些费用都是我一个人出的。基本上就是帮别人充值和解决一些机器人问题。赚到多少呢？多的一天几十，少的就没人充值（感觉合伙人赚了我没赚呀）。&lt;/p&gt;
+&lt;p&gt;一路上遇到很多困难，（机器人账号被封、收钱账户被封）但我们都克服过来了&lt;/p&gt;
+&lt;h3 id=&#34;最后&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#最后&#34;&gt;#&lt;/a&gt; 最后&lt;/h3&gt;
+&lt;p&gt;还是不做了，不是腾讯封杀机器人我们才不做的，而是我不想做了，服务器是按量计费的，我想留点钱给我以后用。腾讯禁止第三方机器人，机器人账号被封了，机器人软件作者也跑路了，所以机器人不能用了（就算是已授权账号也用不了了）。我发现晨风 QQ 机器人论坛有破解版的机器人，于是就下载来继续用了。最后是在 2020 年快结束的时候我打算不做了，就问了合伙人还做吗，他也说不做了，我们就这样退出了。机器人号也被封了，要担保才能解封，不过后来还是担保解封了。解封后想再用机器人软件却发现框架不能用了（显示版本过低）。&lt;/p&gt;
+&lt;p&gt;因为我妈妈挺喜欢机器人的，我就想重操旧业，但是这次打算搞公益，数据还在，但是软件已经不能用了，如果还能用，我可能会重操旧业，做完全免费的公益机器人。&lt;/p&gt;
+&lt;h1 id=&#34;问答&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#问答&#34;&gt;#&lt;/a&gt; 问 / 答&lt;/h1&gt;
+&lt;h2 id=&#34;为什么聊起这个回忆&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#为什么聊起这个回忆&#34;&gt;#&lt;/a&gt; 为什么聊起这个回忆？&lt;/h2&gt;
+&lt;p&gt;是因为我在 GitHub 某仓库看到一个 issues，这个账号使用动漫头像，因为我喜欢二次元，看他头像可爱我就点开他的主页一看，大佬！在主页上我看到了他的邮箱，我就给他发了一封申请友链的邮件，于是等啊等啊等，本以为他不会回我了，有一天晚上我收到他给我回信，我很开心（当时我的友链页面没有搞好就没回了），我就加急搞友链页面了，搞好友链页面后就立马去回复邮件了，后来我们就加了 QQ 好友，于是聊呀聊就聊到了机器人，我就想把我当年做机器人的经历写下来。&lt;/p&gt;
+&lt;h2 id=&#34;为什么群有那么多人&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#为什么群有那么多人&#34;&gt;#&lt;/a&gt; 为什么群有那么多人？&lt;/h2&gt;
+&lt;p&gt;因为我在某些视频平台有一点点粉丝，而这个群就是一个粉丝群，是为了更好的管理群而添加的 QQ 机器人。二是因为之前送名片赞，所以有几个人加群。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://www.wzdc.cc/archives/2/</guid>
+            <title>蓝奏云解析API</title>
+            <link>http://www.wzdc.cc/archives/2/</link>
+            <category term="API" scheme="http://www.wzdc.cc/categories/API/" />
+            <category term="开源" scheme="http://www.wzdc.cc/tags/open-source/" />
+            <category term="php" scheme="http://www.wzdc.cc/tags/php/" />
+            <pubDate>Tue, 03 Jan 2023 16:07:00 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;使用 PHP 爬虫获取蓝奏云分享的文件信息&lt;br /&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;br /&gt;
+ 获取到的链接是临时的下载链接，请按需使用。&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3d6ZGMvbGFuem91eXVuYXBp&#34;&gt;下载源码&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;请求&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#请求&#34;&gt;#&lt;/a&gt; 请求&lt;/h2&gt;
+&lt;p&gt;请求地址： &lt;code&gt;https://api.wzdc.cc/lzy/lanzouyunapi.php&lt;/code&gt; &lt;br /&gt;
+ 请求类型： &lt;code&gt;GET/POST&lt;/code&gt; &lt;br /&gt;
+ 请求示例： &lt;code&gt;https://api.wzdc.cc/lzy/lanzouyunapi.php?data=wzdc&lt;/code&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;参数&lt;/th&gt;
+&lt;th&gt;必填&lt;/th&gt;
+&lt;th&gt;默认&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;mode&lt;/td&gt;
+&lt;td&gt;否&lt;/td&gt;
+&lt;td&gt;pc&lt;/td&gt;
+&lt;td&gt;获取数据方式&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;data&lt;/td&gt;
+&lt;td&gt;是&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;蓝奏云链接或 ID&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;pw&lt;/td&gt;
+&lt;td&gt;否&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;密码&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;type&lt;/td&gt;
+&lt;td&gt;否&lt;/td&gt;
+&lt;td&gt;auto&lt;/td&gt;
+&lt;td&gt;请求类型&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;types&lt;/td&gt;
+&lt;td&gt;否&lt;/td&gt;
+&lt;td&gt;json&lt;/td&gt;
+&lt;td&gt;返回的数据类型&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;redirect&lt;/td&gt;
+&lt;td&gt;否&lt;/td&gt;
+&lt;td&gt;false&lt;/td&gt;
+&lt;td&gt;重定向&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;link&lt;/td&gt;
+&lt;td&gt;否&lt;/td&gt;
+&lt;td&gt;false&lt;/td&gt;
+&lt;td&gt;获取文件直链&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;mode参数说明&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mode参数说明&#34;&gt;#&lt;/a&gt; mode 参数说明&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;当电脑 UA 获取不了文件后可以尝试使用手机 UA 获取&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;参数&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;pc&lt;/td&gt;
+&lt;td&gt;使用电脑 UA 获取数据&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;moblie&lt;/td&gt;
+&lt;td&gt;使用手机 UA 获取数据&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;type参数说明&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#type参数说明&#34;&gt;#&lt;/a&gt; type 参数说明&lt;/h3&gt;
+&lt;p&gt;可选值 &lt;code&gt;auto(自动)、url、id&lt;/code&gt; 。&lt;/p&gt;
+&lt;h3 id=&#34;types参数说明&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#types参数说明&#34;&gt;#&lt;/a&gt; types 参数说明&lt;/h3&gt;
+&lt;p&gt;可选值  &lt;code&gt;text(文字)、json、xml&lt;/code&gt; 。&lt;/p&gt;
+&lt;h3 id=&#34;redirect和link说明&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#redirect和link说明&#34;&gt;#&lt;/a&gt; redirect 和 link 说明&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;开启重定向 (redirect) 后，服务器会将获取到的链接进行重定向。如果获取链接失败则会返回错误信息，返回类型由你（传入的 types 参数）决定。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;请求示例（开启重定向和获取文件直链）： &lt;code&gt;lanzouyunapi.php?data=wzdc&amp;amp;redirect=true&amp;amp;link=true&lt;/code&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;参数&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;true&lt;/td&gt;
+&lt;td&gt;开启&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;false&lt;/td&gt;
+&lt;td&gt;关闭&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;返回&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#返回&#34;&gt;#&lt;/a&gt; 返回&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;参数&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;th&gt;数据类型&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;code&lt;/td&gt;
+&lt;td&gt;状态码&lt;/td&gt;
+&lt;td&gt;int&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;msg&lt;/td&gt;
+&lt;td&gt;信息&lt;/td&gt;
+&lt;td&gt;String&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;data&lt;/td&gt;
+&lt;td&gt;文件信息&lt;/td&gt;
+&lt;td&gt;object&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;文件信息&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文件信息&#34;&gt;#&lt;/a&gt; 文件信息&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;参数&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;th&gt;数据类型&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;name&lt;/td&gt;
+&lt;td&gt;文件名&lt;/td&gt;
+&lt;td&gt;String&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;size&lt;/td&gt;
+&lt;td&gt;文件大小&lt;/td&gt;
+&lt;td&gt;String&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;user&lt;/td&gt;
+&lt;td&gt;分享者&lt;/td&gt;
+&lt;td&gt;String&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;desc&lt;/td&gt;
+&lt;td&gt;描述&lt;/td&gt;
+&lt;td&gt;String&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;time&lt;/td&gt;
+&lt;td&gt;上传时间&lt;/td&gt;
+&lt;td&gt;String&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;url&lt;/td&gt;
+&lt;td&gt;链接&lt;/td&gt;
+&lt;td&gt;String&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;状态码说明&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#状态码说明&#34;&gt;#&lt;/a&gt; 状态码说明&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;code&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;th&gt;msg&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;已经成功获取链接，但获取直链失败&lt;/td&gt;
+&lt;td&gt;获取直链失败&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;获取成功&lt;/td&gt;
+&lt;td&gt;成功&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-1&lt;/td&gt;
+&lt;td&gt;请求接口时，蓝奏云接口返回的错误信息&lt;/td&gt;
+&lt;td&gt;（显示蓝奏云返回的错误信息）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-2&lt;/td&gt;
+&lt;td&gt;获取网页内容时发生错误，会尝试再次获取蓝奏云提示的错误信息&lt;/td&gt;
+&lt;td&gt;（显示获取到的错误信息，如果没有则显示获取失败）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-3&lt;/td&gt;
+&lt;td&gt;HTML 解析错误&lt;/td&gt;
+&lt;td&gt;获取失败&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-4&lt;/td&gt;
+&lt;td&gt;缺少参数&lt;/td&gt;
+&lt;td&gt;缺少参数&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;返回成功示例已格式化&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#返回成功示例已格式化&#34;&gt;#&lt;/a&gt; 返回成功示例（已格式化）&lt;/h3&gt;
+&lt;figure class=&#34;highlight json&#34;&gt;&lt;figcaption data-lang=&#34;JSON&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;code&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;msg&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;成功&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;data&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token property&#34;&gt;&#34;name&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;com.i0b47a46d08a1f3db.apk&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token property&#34;&gt;&#34;size&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;2.4 M&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token property&#34;&gt;&#34;user&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;无知的错&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token property&#34;&gt;&#34;desc&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token property&#34;&gt;&#34;time&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token null keyword&#34;&gt;null&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token property&#34;&gt;&#34;url&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;https://developer.lanzoug.com/file/?AmRVawAxDj9TWgQ8BjNUOAA/UGgDP1c6Vz1bc1NmV2ZTMVY1C2FTZgRmUDBRYQU0VjRSNlc5UDQEMFAyBjhSfQJjVXIANg58U2MEOwY+VDAABVA8AzhXaFdjW2xTPldhU2VWMwtiUzcEdFBgUXYFOVY+UmJXPVBhBDVQYgZiUnUCclVyAGAOaFM1BGAGYlR6AGtQZQNzV2RXaFtyUzZXY1NnVmcLYFM0BDZQN1EwBTVWO1JhV2lQMARiUGUGbFJqAmNVNwBsDmJTYQRhBmpUMAA/UDcDblc0V2BbO1MhVzdTI1ZqC3BTcgQhUGNRdwVtVmhSalc/UGAEOlBuBmtSYQIkVXYANA43U2AENAZvVGQAbFBiA25XbFdpW2RTO1dlU2tWLwt4UyEENFBqUXIFOVY9UmFXP1BgBDpQYQZqUmQCM1UwAHsOL1N1BCUGb1RkAGxQZQNvV2VXYltvUz5XZ1NqVicLI1NuBCJQO1E0BT1WNFJ5VzFQYwQtUG4Ga1J9AjNVMw==&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight xml&#34;&gt;&lt;figcaption data-lang=&#34;XML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token prolog&#34;&gt;&amp;lt;?xml version=&#34;1.0&#34;?&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;root&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;code&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;0&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;code&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;msg&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token entity&#34; title=&#34;&amp;#x6210;&#34;&gt;&amp;amp;#x6210;&lt;/span&gt;&lt;span class=&#34;token entity&#34; title=&#34;&amp;#x529F;&#34;&gt;&amp;amp;#x529F;&lt;/span&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;msg&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;item&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;name&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;com.i0b47a46d08a1f3db.apk&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;name&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;size&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;2.4 M&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;size&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;user&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token entity&#34; title=&#34;&amp;#x65E0;&#34;&gt;&amp;amp;#x65E0;&lt;/span&gt;&lt;span class=&#34;token entity&#34; title=&#34;&amp;#x77E5;&#34;&gt;&amp;amp;#x77E5;&lt;/span&gt;&lt;span class=&#34;token entity&#34; title=&#34;&amp;#x7684;&#34;&gt;&amp;amp;#x7684;&lt;/span&gt;&lt;span class=&#34;token entity&#34; title=&#34;&amp;#x9519;&#34;&gt;&amp;amp;#x9519;&lt;/span&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;user&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;desc&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;desc&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;time&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;time&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;url&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;https://developer.lanzoug.com/file/?AWdbZQAxADEACVNrUWQGalBvU2tXa1E8VjxaclxpUWAJa1Y1XjRQZVU3BmZQYAU0BmRVMV4wAmYBNVs5VmhQfwFgW3wANgByADBTbFFpBmJQVVM/V2xRblZiWm1cMVFnCT9WM143UDRVJQY2UHcFOQZuVWVeNAIzATBbaVYyUHcBcVt8AGAAZgBmUzdRNQYoUDtTZlcnUWJWaVpzXDlRZQk9VmdeNVA3VWcGYVAxBTUGa1VmXmACYgFnW25WPFBoAWBbOQBsAGwAMlM2UT0GYlBvUzRXOlEyVmFaOlwuUTEJeVZqXiVQcVVwBjVQdgVtBjhVbV42AjIBP1tlVjtQYwEnW3gANAA5ADNTY1E4BjZQPFNhVzpRalZoWmVcNlFgCTlWL14tUCJVZQY8UHMFOQZtVWZeNgIyAT9balY6UGYBMFs+AHsAIQAmU3JROAY2UDxTZlc7UWNWY1puXDFRYQkwVidedlBtVXMGbVA1BT0GZFV+XjgCMQEoW2VWO1B/ATBbPQ==&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;url&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;item&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;root&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;pre&gt;&lt;code&gt;https://developer.lanzoug.com/file/?AGZWaA08UGFRWAI6Cz5RPVtkADgFOQVoVjxTe1xpBzYEZlMwWjADNghqVzdQYFNiB2UGYgVrBGBQZAFjBjhWeQBhVnENO1AiUWECPQszUTVbXgBsBT4FOlZiU2RcMQcxBDJTNlozA2cIeFdnUHdTbwdvBjYFbwQ1UGEBMwZiVnEAcFZxDW1QNlE3AmYLb1F/WzAANQV1BTZWaVN6XDkHMwQwU2JaMQNkCDpXMFAxU2MHagY1BTsEZFA2ATQGbFZuAGFWNA1hUDxRYwJnC2dRNVtkAGcFaAVmVmFTM1wuB2cEdFNvWiEDIggtV2RQdlM7BzkGPgVtBDRQbgE/BmtWZQAmVnUNOVBpUWICMgtiUWFbNwAyBWgFPlZoU2xcNgcyBDNTKlopA3EIOFdtUHNTbwdsBjUFbQQ0UG4BMAZqVmAAMVYzDXZQcVF3AiMLYlFhWzcANQVpBTdWY1NnXDEHNwQ9UyJacgM+CC5XPFA1U2sHZQYtBWMEN1B5AT8Ga1Z5ADFWMA==
+&lt;/code&gt;&lt;/pre&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://www.wzdc.cc/archives/1/</guid>
+            <title>突破问卷星限制</title>
+            <link>http://www.wzdc.cc/archives/1/</link>
+            <category term="教程" scheme="http://www.wzdc.cc/categories/tutorial/" />
+            <category term="突破限制" scheme="http://www.wzdc.cc/tags/circumvent-restrictions/" />
+            <pubDate>Thu, 29 Dec 2022 01:13:00 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;这个就是我的博客第一篇文章了！&lt;/p&gt;
+&lt;p&gt;用过的人都知道问卷星有很多限制，尤其是不能复制粘贴，每次手敲题目去网上搜寻，找到答案后又要手敲到输入框里，这样可能导致不够时间做。&lt;/p&gt;
+&lt;p&gt;我使用的浏览器是 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9jaHJvbWUv&#34;&gt;Google chrome&lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&#34;破解微信作答限制&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#破解微信作答限制&#34;&gt;#&lt;/a&gt; 破解微信作答限制&lt;/h1&gt;
+&lt;p&gt;User-Agent Switcher 是一个可以修改用户代理 (User-Agent，简称 UA) 的浏览器插件。问卷星是根据你的浏览器 UA 判断你是不是从微信打开的，把 UA 改成微信 UA，问卷星就会认为你是从微信访问的。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;下载并安装 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jaHJvbWUuZ29vZ2xlLmNvbS93ZWJzdG9yZS9kZXRhaWwvdXNlci1hZ2VudC1zd2l0Y2hlci1mb3ItYy9kamZsaG9pYmdrZGhraGhjZWRqaWtscGtqbm9haGZtZw==&#34;&gt;User-Agent Switcher&lt;/span&gt; 插件&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;打开  &lt;code&gt;User-Agent Switcher&lt;/code&gt;  选项页&lt;/p&gt;
+&lt;p&gt;右键  &lt;code&gt;User-Agent Switcher&lt;/code&gt;  图标，点击  &lt;code&gt;选项&lt;/code&gt; &lt;br /&gt;
+&lt;img data-src=&#34;a2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;或点击  &lt;code&gt;扩展程序图标&lt;/code&gt;  再点击  &lt;code&gt;⋮&lt;/code&gt;  再点击  &lt;code&gt;选项&lt;/code&gt; &lt;br /&gt;
+&lt;img data-src=&#34;a.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;添加一个微信的 UA&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;b.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;根据表格填（填完后点击 Add 添加）&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;标题&lt;/th&gt;
+&lt;th&gt;填写的内容&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;New User-agent name&lt;/td&gt;
+&lt;td&gt;wechat&lt;/td&gt;
+&lt;td&gt;UA 名字&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;New User-Agent String&lt;/td&gt;
+&lt;td&gt;Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x63070517)&lt;/td&gt;
+&lt;td&gt;Windows 版微信 UA&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Group&lt;/td&gt;
+&lt;td&gt;Chrome&lt;/td&gt;
+&lt;td&gt;组&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Append?&lt;/td&gt;
+&lt;td&gt;Replace&lt;/td&gt;
+&lt;td&gt;（默认）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Indicator Flag&lt;/td&gt;
+&lt;td&gt;WIN&lt;/td&gt;
+&lt;td&gt;（随便填）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用&#34;&gt;#&lt;/a&gt; 使用&lt;/h2&gt;
+&lt;p&gt;修改成微信 UA：打开  &lt;code&gt;User-Agent Switcher&lt;/code&gt;  插件，点击  &lt;code&gt;chrome&lt;/code&gt;  ， 再点击  &lt;code&gt;Wechat&lt;/code&gt; &lt;br /&gt;
+ 修改回默认 UA：打开  &lt;code&gt;User-Agent Switcher&lt;/code&gt;  插件，点击  &lt;code&gt;chrome&lt;/code&gt;  ， 再点击  &lt;code&gt;Default&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;User-Agent Switcher 会把所有页面的 UA 都修改掉，每次修改 UA 会自动刷新当前页面。如果需边作答边浏览其他网页使用微信 UA 打开部分网页可能会受到一些限制（如网站不允许使用微信打开），建议使用无痕模式或其他浏览器浏览其他网页。&lt;/p&gt;
+&lt;h1 id=&#34;在浏览器中使用微信登录作答&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#在浏览器中使用微信登录作答&#34;&gt;#&lt;/a&gt; 在浏览器中使用微信登录作答&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;#%E4%BD%BF%E7%94%A8&#34;&gt;把 UA 修改成微信 UA&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;从微信打开问卷星链接&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;点击一键登录，再复制链接到浏览器打开&lt;br /&gt;
+&lt;img data-src=&#34;c.png&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+注意：一定要在微信授权登录页面复制链接&lt;br /&gt;
+&lt;img data-src=&#34;c2.png&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;1.PNG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;把复制的链接粘贴到 chrome 浏览器中打开（不是近期登录需要点击 “同意” 按钮才能登录，近期登录过会自动登录）&lt;br /&gt;
+&lt;img data-src=&#34;c3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;复制粘贴限制&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#复制粘贴限制&#34;&gt;#&lt;/a&gt; 复制粘贴限制&lt;/h1&gt;
+&lt;p&gt;使用 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jaHJvbWUuZ29vZ2xlLmNvbS93ZWJzdG9yZS9kZXRhaWwvY29weS1wYXN0ZS1wcm8vZXBnbmRpaGpiY2VwbmJhZG9jYW9vZmpuZmFvcGhsaW8=&#34;&gt;Copy Paste Pro&lt;/span&gt; 插件，可以解决网页不给复制粘贴问题。Copy Paste Pro 是可以让你在禁止复制粘贴的网站使用复制粘贴功能，可以隋开随关，无需刷新页面。建议当需要使用复制粘贴再开启功能，开启后会导致网页部分不能正常点击。&lt;/p&gt;
+&lt;p&gt;使用：点击图标后就开启和关闭，绿色勾开启，灰色勾关闭（只能在当前页面生效，当刷新或跳转其他页面后会自动关闭）&lt;/p&gt;
+&lt;p&gt;我并不是很推荐使用这个插件，我在使用时遇到了一些问题，我关了还能复制部分文字，不过我觉得问题不大。&lt;/p&gt;
+&lt;h1 id=&#34;设备限制&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#设备限制&#34;&gt;#&lt;/a&gt; 设备限制&lt;/h1&gt;
+&lt;p&gt;通常情况下，清除 cookie 可以绕过设备限制。&lt;/p&gt;
+&lt;h1 id=&#34;更多&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#更多&#34;&gt;#&lt;/a&gt; 更多&lt;/h1&gt;
+&lt;p&gt;使用&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudGFtcGVybW9ua2V5Lm5ldC8=&#34;&gt;油猴&lt;/span&gt;脚本可以帮助你突破更多的限制和更快的完成问卷。&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
