@@ -15,7 +15,7 @@
         <id>http://www.wzdc.cc/posts/8/</id>
         <title>B站随机图片</title>
         <link rel="alternate" href="http://www.wzdc.cc/posts/8/"/>
-        <content type="html">&lt;p&gt;又一个随机图片 API，之前也写过一个&lt;a href=&#34;https://www.wzdc.cc/archives/4/&#34;&gt;随机图 API&lt;/a&gt;，是调用搜索引擎的搜图 API 返回的图片。每次打开 B 站首页都有好看的动漫图，这次直接调用 B 站的文章搜索接口做随机图，这是我前几天写的，因为偶尔会返回一些装饰图片，所以感觉不完美就扔 moe team telegram group File 里了，昨天无意间想到了可以通过图片分辨率来判断是不是装饰图，特意完善了一下！（代码写的烂，大佬勿喷）&lt;/p&gt;
+        <content type="html">&lt;p&gt;又一个随机图片 API，之前也写过一个&lt;a href=&#34;../4/&#34;&gt;随机图 API&lt;/a&gt;，是调用搜索引擎的搜图 API 返回的图片。每次打开 B 站首页都有好看的动漫图，这次直接调用 B 站的文章搜索接口做随机图，这是我前几天写的，因为偶尔会返回一些装饰图片，所以感觉不完美就扔 moe team telegram group File 里了，昨天无意间想到了可以通过图片分辨率来判断是不是装饰图，特意完善了一下！（代码写的烂，大佬勿喷）&lt;/p&gt;
 &lt;h1 id=&#34;为什么做这个&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#为什么做这个&#34;&gt;#&lt;/a&gt; 为什么做这个？&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;因为 B 站上的动漫图比搜索引擎搜到的动漫图好看&lt;/li&gt;
