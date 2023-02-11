@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.wzdc.cc/friends/index.html</loc>
+    
+    <lastmod>2023-02-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.wzdc.cc/posts/5/</loc>
     
     <lastmod>2023-02-11</lastmod>
@@ -21,15 +30,6 @@
   
   <url>
     <loc>http://www.wzdc.cc/posts/8/</loc>
-    
-    <lastmod>2023-02-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.wzdc.cc/friends/index.html</loc>
     
     <lastmod>2023-02-09</lastmod>
     
@@ -126,20 +126,6 @@
   </url>
   
   <url>
-    <loc>http://www.wzdc.cc/tags/open-source/</loc>
-    <lastmod>2023-02-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.wzdc.cc/tags/experience/</loc>
-    <lastmod>2023-02-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://www.wzdc.cc/tags/network-proxy/</loc>
     <lastmod>2023-02-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -154,7 +140,21 @@
   </url>
   
   <url>
+    <loc>http://www.wzdc.cc/tags/experience/</loc>
+    <lastmod>2023-02-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://www.wzdc.cc/tags/circumvent-restrictions/</loc>
+    <lastmod>2023-02-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.wzdc.cc/tags/open-source/</loc>
     <lastmod>2023-02-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -163,14 +163,14 @@
 
   
   <url>
-    <loc>http://www.wzdc.cc/categories/tutorial/</loc>
+    <loc>http://www.wzdc.cc/categories/API/</loc>
     <lastmod>2023-02-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.wzdc.cc/categories/API/</loc>
+    <loc>http://www.wzdc.cc/categories/tutorial/</loc>
     <lastmod>2023-02-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
