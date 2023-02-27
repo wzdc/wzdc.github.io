@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.wzdc.cc/posts/4/</loc>
+    
+    <lastmod>2023-02-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.wzdc.cc/posts/9/</loc>
+    
+    <lastmod>2023-02-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.wzdc.cc/friends/index.html</loc>
     
     <lastmod>2023-02-12</lastmod>
@@ -65,15 +83,6 @@
   </url>
   
   <url>
-    <loc>http://www.wzdc.cc/posts/4/</loc>
-    
-    <lastmod>2023-02-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.wzdc.cc/posts/3/</loc>
     
     <lastmod>2023-02-08</lastmod>
@@ -112,50 +121,50 @@
 
   <url>
     <loc>http://www.wzdc.cc/</loc>
-    <lastmod>2023-02-12</lastmod>
+    <lastmod>2023-02-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>http://www.wzdc.cc/tags/php/</loc>
+    <lastmod>2023-02-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://www.wzdc.cc/tags/network-proxy/</loc>
-    <lastmod>2023-02-12</lastmod>
+    <lastmod>2023-02-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.wzdc.cc/tags/VPN/</loc>
-    <lastmod>2023-02-12</lastmod>
+    <lastmod>2023-02-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.wzdc.cc/tags/experience/</loc>
-    <lastmod>2023-02-12</lastmod>
+    <lastmod>2023-02-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.wzdc.cc/tags/circumvent-restrictions/</loc>
-    <lastmod>2023-02-12</lastmod>
+    <lastmod>2023-02-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.wzdc.cc/tags/open-source/</loc>
-    <lastmod>2023-02-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.wzdc.cc/tags/php/</loc>
-    <lastmod>2023-02-12</lastmod>
+    <lastmod>2023-02-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -163,22 +172,22 @@
 
   
   <url>
+    <loc>http://www.wzdc.cc/categories/API/</loc>
+    <lastmod>2023-02-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://www.wzdc.cc/categories/tutorial/</loc>
-    <lastmod>2023-02-12</lastmod>
+    <lastmod>2023-02-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.wzdc.cc/categories/chat/</loc>
-    <lastmod>2023-02-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.wzdc.cc/categories/API/</loc>
-    <lastmod>2023-02-12</lastmod>
+    <lastmod>2023-02-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

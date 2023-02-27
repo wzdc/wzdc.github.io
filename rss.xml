@@ -10,10 +10,23 @@
         </author>
         <description>Hi , welcome to my blog</description>
         <language>zh-CN</language>
-        <pubDate>Thu, 09 Feb 2023 13:26:56 +0800</pubDate>
-        <lastBuildDate>Thu, 09 Feb 2023 13:26:56 +0800</lastBuildDate>
+        <pubDate>Mon, 27 Feb 2023 20:33:54 +0800</pubDate>
+        <lastBuildDate>Mon, 27 Feb 2023 20:33:54 +0800</lastBuildDate>
         <category term="无知的错" />
         <category term="博客" />
+        <item>
+            <guid isPermalink="true">http://www.wzdc.cc/posts/9/</guid>
+            <title>QQ空间修改相册权限提示“说说日志仅自己可见，不支持...”解决方法</title>
+            <link>http://www.wzdc.cc/posts/9/</link>
+            <category term="教程" scheme="http://www.wzdc.cc/categories/tutorial/" />
+            <pubDate>Mon, 27 Feb 2023 20:33:54 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;前几个月设置相册为公开时提示 “说说日志仅自己可见，不支持...” 的错误提示&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;photo_2023-02-27_19-58-19.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;我在网上寻找了很多方法都没成功把相册权限设为公开，尝试很多次也没能成功就没理会了，今天无意间回想起这件事，又在 WEB 端设置权限，结果提示 “抱歉，当前使用相册服务的用户过多，请您稍后再试。”&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;photo_2023-02-27_19-59-30.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;刚开始我以为是相册内某些照片被设置成私密导致的，于是我把所有照片移动到新相册，还是设置不了权限，但是新相册可以。又试了好多次也没能修改权限就打算放弃了，想着旧相册先留着，新相册先用着。回想起 QQ 空间可以恢复相册，于是就想&lt;span class=&#34;red&#34;&gt;把不能改权限的相册删了，再去回收站恢复回来，可能就能改权限了，但是也有可能恢复不了了&lt;/span&gt;。结果恢复时提示 “抱歉，当前使用相册服务的用户过多，请您稍后再试。” 我还以为恢复不了了，想着恢复不了也不亏，我已经把不能改权限的相册内的所有照片移动到新相册了，如果恢复不了就用新相册。之后又换了手机 QQ 试着能不能恢复，然后就恢复成功了，又试了一下能不能改权限，发现可以修改权限，又把新相册里的所有照片移动回旧相册。为什么不直接使用新相册呢？因为旧相册有创建时间。有什么用呢？&lt;s&gt;没用（bushi&lt;/s&gt; 。&lt;span class=&#34;red&#34;&gt;操作需谨慎，删了的东西回收站不一定能恢复。&lt;/span&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://www.wzdc.cc/posts/8/</guid>
             <title>B站随机图片</title>
@@ -124,8 +137,8 @@
             <title>随机图片</title>
             <link>http://www.wzdc.cc/posts/4/</link>
             <category term="API" scheme="http://www.wzdc.cc/categories/API/" />
-            <category term="开源" scheme="http://www.wzdc.cc/tags/open-source/" />
             <category term="php" scheme="http://www.wzdc.cc/tags/php/" />
+            <category term="开源" scheme="http://www.wzdc.cc/tags/open-source/" />
             <pubDate>Fri, 20 Jan 2023 22:31:46 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;调用百度、360、搜狗、神马图片搜索接口搜索一张图并返回。支持手机和电脑不同关键字搜索。&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3d6ZGMvcmFuZG9tLXBpY3R1cmU=&#34;&gt; 下载源码&lt;/span&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -318,8 +331,8 @@
             <title>蓝奏云解析API</title>
             <link>http://www.wzdc.cc/posts/2/</link>
             <category term="API" scheme="http://www.wzdc.cc/categories/API/" />
-            <category term="开源" scheme="http://www.wzdc.cc/tags/open-source/" />
             <category term="php" scheme="http://www.wzdc.cc/tags/php/" />
+            <category term="开源" scheme="http://www.wzdc.cc/tags/open-source/" />
             <pubDate>Tue, 03 Jan 2023 16:07:00 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;使用 PHP 爬虫获取蓝奏云分享的文件信息&lt;br /&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;br /&gt;
