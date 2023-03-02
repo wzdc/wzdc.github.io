@@ -135,13 +135,6 @@
   </url>
   
   <url>
-    <loc>http://www.wzdc.cc/tags/experience/</loc>
-    <lastmod>2023-03-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://www.wzdc.cc/tags/network-proxy/</loc>
     <lastmod>2023-03-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -163,6 +156,13 @@
   </url>
   
   <url>
+    <loc>http://www.wzdc.cc/tags/experience/</loc>
+    <lastmod>2023-03-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://www.wzdc.cc/tags/open-source/</loc>
     <lastmod>2023-03-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -172,14 +172,14 @@
 
   
   <url>
-    <loc>http://www.wzdc.cc/categories/tutorial/</loc>
+    <loc>http://www.wzdc.cc/categories/API/</loc>
     <lastmod>2023-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.wzdc.cc/categories/API/</loc>
+    <loc>http://www.wzdc.cc/categories/tutorial/</loc>
     <lastmod>2023-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
