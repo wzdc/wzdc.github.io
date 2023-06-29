@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>博客又换主题了</title>
+      <link href="/posts/11/"/>
+      <url>/posts/11/</url>
+      
+        <content type="html"><![CDATA[<h1 id="换主题"><a href="#换主题" class="headerlink" title="换主题"></a>换主题</h1><p>当你看到这篇文章的时候，博客主题已从 <a href="https://github.com/amehime/hexo-theme-shoka">shoka</a> 更换到  <a href="https://github.com/jerryc127/hexo-theme-butterfly">butterfly</a>，原因是我使用 <a href="https://github.com/amehime/hexo-theme-shoka">shoka</a> 遇到了一些问题难以解决。</p><p>花了三天时间去配置主题，更换主题后，博客也少了一点二次元元素..</p><h1 id="截图留念"><a href="#截图留念" class="headerlink" title="截图留念"></a>截图留念</h1><p><img src="/posts/11/20230627173639.png"></p><h1 id="评论邮件通知"><a href="#评论邮件通知" class="headerlink" title="评论邮件通知"></a>评论邮件通知</h1><p>现在我还没有找到合适的邮箱提供商，所以评论暂时没有邮件通知功能。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 闲聊 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> My Blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>realme v3 5G 卡刷root教程</title>
+      <link href="/posts/10/"/>
+      <url>/posts/10/</url>
+      
+        <content type="html"><![CDATA[<div class="note warning modern"><p>ROOT后不能写入system分区，如果需要写入system可以试试<a href="https://github.com/HuskyDG/magic_overlayfs">Magisk Overlayfs</a>模块</p></div><h1 id="解锁Bootloader"><a href="#解锁Bootloader" class="headerlink" title="解锁Bootloader"></a>解锁Bootloader</h1><div class="note danger modern"><p>解锁 Bootloader 需要清空手机数据，如果手机有重要数据请先备份！</p></div><p>参考教程：<a href="https://www.realme.com/cn/support/kw/doc/2031665">https://www.realme.com/cn/support/kw/doc/2031665</a></p><ol><li><a href="https://www.realmebbs.com/post-details/1307872237881143296">下载和安装深度测试</a>，打开深度测试，点击<code>申请深度测试</code>，一般等待几分钟后就可以申请通过。   </li><li>审核成功后点击<code>查询审核状态</code> -  <code>开始深度测试</code> ，手机会自动重启并进入fastboot模式。<br><img src="/posts/10/1.png"></li><li>使用数据线连接电脑，下载并解压<a href="https://weibo.com/6033736159/JCJ65t1Lw">realme V3的LR.Team定制版twrp</a><br><img src="/posts/10/20230623173710.png"></li><li>打开<code>TWRP-3.4.2B-0128-REALME_V3-CN-wzsx150-fastboot</code>文件夹里的<code>打开CMD命令行.bat</code></li><li>开始解锁：在CMD窗口输入<code>fastboot flashing unlock</code>，手机会询问你是否要解锁 BootLoader ，按音量上键解锁。</li><li>解锁完成后在CMD窗口输入 <code>fastboot reboot</code> 重启设备，重启后按正常流程激活手机。</li></ol><h2 id="解决系统完整性已被破坏的弹窗"><a href="#解决系统完整性已被破坏的弹窗" class="headerlink" title="解决系统完整性已被破坏的弹窗"></a>解决<code>系统完整性已被破坏</code>的弹窗</h2><p>解锁 Bootloader 后，使用电子支付时会提示<code>系统完整性已被破坏</code>弹窗</p><p><img src="/posts/10/BB9B0CA0D122E6CEFC4B790C8566F07F.jpg"></p><p>打开<code>手机管家</code> - <code>支付保护</code> 。将支付保护关闭。</p><p><img src="/posts/10/1.1.png"></p><h1 id="刷入第三方recovery"><a href="#刷入第三方recovery" class="headerlink" title="刷入第三方recovery"></a>刷入第三方recovery</h1><p> 打开 <code>recovery-twrp一键刷入工具.bat</code> ，按照提示操作。刷入成功后会自动重启到recovery。</p><h2 id="关闭avb2-0校验防止开机提示系统损坏"><a href="#关闭avb2-0校验防止开机提示系统损坏" class="headerlink" title="关闭avb2.0校验防止开机提示系统损坏"></a>关闭avb2.0校验防止开机提示系统损坏</h2><p>点击<code>高级</code> - <code>关闭avb2.0校验</code><br><img src="/posts/10/2.1.png"></p><h1 id="ROOT"><a href="#ROOT" class="headerlink" title="ROOT"></a>ROOT</h1><p>在TWRP里点击 <code>高级</code> - <code>ROOT系统</code>，ROOT后重启设备，就会看到桌面上有一个<code>Magisk Manager</code>，版本比较低，自己更新到最新版。<br><img src="/posts/10/3.png"></p><h2 id="隐藏ROOT"><a href="#隐藏ROOT" class="headerlink" title="隐藏ROOT"></a>隐藏ROOT</h2><p>部分软件不允许设备在已ROOT的环境下运行，这时候就要隐藏ROOT</p><p><img src="/posts/10/4E69253C3E9948F5CCF33B5F553DFE78.jpg"></p><ol><li>下载<a href="https://github.com/LSPosed/LSPosed.github.io/releases">shamiko</a>模块</li><li>安装<code>shamiko</code>模块：打开<code>Magisk</code> - <code>模块</code> - <code>从本地安装</code> ，选择<code>shamiko</code>模块的压缩包，返回<code>Magisk</code>首页 ，点击右上角<code>设置</code> ，开启 <code>Zygisk</code> ，重启。</li><li>在<code>Magisk</code>的<code>配置排除列表</code>勾选需要隐藏ROOT的应用。</li></ol><p>这种方法只能绕过一部分ROOT检测软件，有的软件不会单纯的去检测设备是否ROOT，而是会通过各种手段去判断你是否已经ROOT。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>QQ空间修改相册权限提示“说说日志仅自己可见，不支持...”解决方法</title>
+      <link href="/posts/9/"/>
+      <url>/posts/9/</url>
+      
+        <content type="html"><![CDATA[<p>前几个月设置相册为公开时提示“说说日志仅自己可见，不支持…”的错误提示</p><p><img src="/posts/9/photo_2023-02-27_19-58-19.jpg"></p><p>我在网上寻找了很多方法都没成功把相册权限设为公开，尝试很多次也没能成功就没理会了，今天无意间回想起这件事，又在WEB端设置权限，结果提示“抱歉，当前使用相册服务的用户过多，请您稍后再试。”</p><p><img src="/posts/9/photo_2023-02-27_19-59-30.jpg"></p><blockquote><p>如果你不想看我的故事可以直接看红色字</p></blockquote><p>刚开始我以为是相册内某些照片被设置成私密导致的，于是我把所有照片移动到新相册，还是设置不了权限，但是新相册可以。又试了好多次也没能修改权限就打算放弃了，想着旧相册先留着，新相册先用着。<br>回想起QQ空间可以恢复相册，于是就想<font color="red">把不能改权限的相册删了，再去回收站恢复回来，可能就能改权限了，但是也有可能恢复不了了。</font>结果恢复时提示“抱歉，当前使用相册服务的用户过多，请您稍后再试。”我还以为恢复不了了，想着恢复不了也不亏，我已经把不能改权限的相册内的所有照片移动到新相册了，如果恢复不了就用新相册。之后又换了手机QQ试着能不能恢复，然后就恢复成功了，又试了一下能不能改权限，发现可以修改权限，又把新相册里的所有照片移动回旧相册。<br>为什么不直接使用新相册呢？因为旧相册有创建时间。有什么用呢？<del>没用（bushi</del> 。<font color="red">操作需谨慎，删了的东西回收站不一定能恢复。</font></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>B站随机图片</title>
+      <link href="/posts/8/"/>
+      <url>/posts/8/</url>
+      
+        <content type="html"><![CDATA[<p>又一个随机图片API，之前也写过一个<a href="../4/">随机图API</a>，是调用搜索引擎的搜图API返回的图片。每次打开B站首页都有好看的动漫图，这次直接调用B站的文章搜索接口做随机图，这是我前几天写的，因为偶尔会返回一些装饰图片，所以感觉不完美就扔moe team telegram group File里了，昨天无意间想到了可以通过图片分辨率来判断是不是装饰图，特意完善了一下！（虽然不是很完美，但是可以规避掉一些装饰图了。代码写的烂，大佬勿喷）<a href="https://github.com/wzdc/bilibili_image">仓库地址</a></p><h1 id="为什么做这个？"><a href="#为什么做这个？" class="headerlink" title="为什么做这个？"></a>为什么做这个？</h1><ol><li>因为B站上的动漫图比搜索引擎搜到的动漫图好看</li><li>搜索引擎搜的是全网的图片，所以难免会遇到原站的图片无法打开或打开速度慢的问题</li></ol><h1 id="使用文档"><a href="#使用文档" class="headerlink" title="使用文档"></a>使用文档</h1><blockquote><p>请求方式：GET&#x2F;POST</p></blockquote><table><thead><tr><th>参数</th><th>必填</th><th>说明</th></tr></thead><tbody><tr><td>search</td><td>是</td><td>关键字</td></tr><tr><td>mobile_search</td><td>否</td><td>关键字（移动设备）</td></tr></tbody></table><h1 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h1><p>演示地址：<a href="https://api.wzdc.cc/bilibili_image.php">https://api.wzdc.cc/bilibili_image.php</a><br>示例请求：<a href="https://api.wzdc.cc/bilibili_image.php?search=%E4%BA%8C%E6%AC%A1%E5%85%83%E7%94%B5%E8%84%91%E5%A3%81%E7%BA%B8&mobile_search=%E4%BA%8C%E6%AC%A1%E5%85%83%E6%89%8B%E6%9C%BA%E5%A3%81%E7%BA%B8">https://api.wzdc.cc/bilibili_image.php?search&#x3D;二次元电脑壁纸&amp;mobile_search&#x3D;二次元手机壁纸</a></p><p><img src="https://api.wzdc.cc/bilibili_image.php?search=%E4%BA%8C%E6%AC%A1%E5%85%83%E7%94%B5%E8%84%91%E5%A3%81%E7%BA%B8&mobile_search=%E4%BA%8C%E6%AC%A1%E5%85%83%E6%89%8B%E6%9C%BA%E5%A3%81%E7%BA%B8"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> API </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> php </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>博客换主题了</title>
+      <link href="/posts/7/"/>
+      <url>/posts/7/</url>
+      
+        <content type="html"><![CDATA[<!-- 花了三天时间 --><p>Hello 各位，今天换主题了，其实很早就想换了，因为换了新主题要配置好多东西所以就一直没换。加上<a href="https://github.com/argvchs/hexo-theme-particlex">particlex</a>有人维护，所以每次我遇到问题都会在GitHub上提issue，24小时内就能得到回复并解决问题了。</p><p>为什么要换主题？因为原来的主题 <a href="https://github.com/argvchs/hexo-theme-particlex">particlex</a> 首次加载太慢了（估计是<a href="https://github.com/argvchs/hexo-theme-particlex">particlex</a>字体太多啦），被群友说了qaq~</p><p>因为新主题不支持 <a href="https://giscus.app/zh-CN">giscus</a> 加上我的博客没人评论，所以评论系统也换了。目前还没有弄评论&#x2F;回复邮件提醒，弄这个东西弄了好久了，暂时先搁置了。</p><h1 id="截图留念"><a href="#截图留念" class="headerlink" title="截图留念"></a>截图留念</h1><p>拍摄于：2023年1月16日 9:57:53<br><img src="/posts/7/siteshot.png"></p><p>拍摄于：2023年2月8日 23:28:52<br><img src="/posts/7/20230208232852.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 闲聊 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> My Blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>随机图片</title>
+      <link href="/posts/4/"/>
+      <url>/posts/4/</url>
+      
+        <content type="html"><![CDATA[<p>调用百度、360、搜狗、神马图片搜索接口搜索一张图并返回。支持手机和电脑不同关键字搜索。<span id="more"></span><a href="https://github.com/wzdc/random-picture">下载源码</a></p><blockquote><p>注意：请求太快可能会被搜索引擎封禁或弹验证码哦！</p></blockquote><h1 id="请求"><a href="#请求" class="headerlink" title="请求"></a>请求</h1><blockquote><p>请求地址：<a href="https://api.wzdc.cc/image.php">https://api.wzdc.cc/image.php</a><br>请求方式：GET&#x2F;POST<br>请求示例：<a href="https://api.wzdc.cc/image.php?source=baidu&type=download&search=%E7%94%B5%E8%84%91%E4%BA%8C%E6%AC%A1%E5%85%83%E5%A3%81%E7%BA%B8&qsearch=%E6%89%8B%E6%9C%BA%E4%BA%8C%E6%AC%A1%E5%85%83%E5%A3%81%E7%BA%B8">https://api.wzdc.cc/image.php?source=baidu&type=download&search=电脑二次元壁纸&qsearch=手机二次元壁纸</a></p></blockquote><table><thead><tr><th>参数</th><th>必填</th><th>说明</th><th>默认</th></tr></thead><tbody><tr><td>search</td><td>是</td><td>要搜索的图片（例如电脑壁纸）</td><td></td></tr><tr><td>pesearch</td><td>否</td><td>手机访问时要搜索的图片（例如手机壁纸）</td><td>（使用q参数传入的值）</td></tr><tr><td>source</td><td>是</td><td>搜索引擎（可选值：baidu、360、sougou、shenma）</td><td></td></tr><tr><td>type</td><td>否</td><td>数据返回类型（可选值参见<a href="#type%E5%8F%AF%E9%80%89%E5%80%BC">type可选值</a>)</td><td>json</td></tr><tr><td>random</td><td>否</td><td>随机数范围</td><td>1,100</td></tr></tbody></table><h2 id="type可选值"><a href="#type可选值" class="headerlink" title="type可选值"></a>type可选值</h2><table><thead><tr><th>可选值</th><th>说明</th></tr></thead><tbody><tr><td>json</td><td>压缩的JSON格式</td></tr><tr><td>img</td><td>由服务器下载原站图片后再返回给客户端</td></tr><tr><td>thumburl</td><td>跳转到搜索引擎保存的图片地址</td></tr><tr><td>redirect</td><td>跳转到图片原站</td></tr><tr><td>download</td><td>重定向到百度的图片下载API</td></tr></tbody></table><h1 id="返回"><a href="#返回" class="headerlink" title="返回"></a>返回</h1><table><thead><tr><th>参数</th><th>数据类型</th><th>说明</th></tr></thead><tbody><tr><td>url</td><td>String</td><td>原站图片链接</td></tr><tr><td>thumburl</td><td>String</td><td>搜索引擎保存的图片链接</td></tr><tr><td>download</td><td>String</td><td>百度图片下载接口链接</td></tr><tr><td>p</td><td>int</td><td></td></tr></tbody></table><h2 id="返回成功示例"><a href="#返回成功示例" class="headerlink" title="返回成功示例"></a>返回成功示例</h2><p><img src="https://api.wzdc.cc/image.php?source=baidu&type=download&search=%E7%94%B5%E8%84%91%E4%BA%8C%E6%AC%A1%E5%85%83%E5%A3%81%E7%BA%B8&qsearch=%E6%89%8B%E6%9C%BA%E4%BA%8C%E6%AC%A1%E5%85%83%E5%A3%81%E7%BA%B8" alt="随机图示例"></p><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;url&quot;</span><span class="punctuation">:</span> <span class="string">&quot;http://i0.hdslb.com/bfs/article/fe192e64dae02b5fed42df441e2579c855b51bce.jpg&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;thumburl&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://kkimgs.yisou.com/ims?kt=url&amp;at=smstruct&amp;key=aHR0cDovL2kwLmhkc2xiLmNvbS9iZnMvYXJ0aWNsZS9mZTE5MmU2NGRhZTAyYjVmZWQ0MmRmNDQxZTI1NzljODU1YjUxYmNlLmpwZw==&amp;sign=yx:HufPonuXWhp4CgJ-nIqA1HUzjvc=&amp;tv=400_400&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;download&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://image.baidu.com/search/down?tn=download&amp;ipn=dwnl&amp;word=download&amp;ie=utf8&amp;fr=result&amp;url=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2Ffe192e64dae02b5fed42df441e2579c855b51bce.jpg&amp;thumburl=https%3A%2F%2Fkkimgs.yisou.com%2Fims%3Fkt%3Durl%26at%3Dsmstruct%26key%3DaHR0cDovL2kwLmhkc2xiLmNvbS9iZnMvYXJ0aWNsZS9mZTE5MmU2NGRhZTAyYjVmZWQ0MmRmNDQxZTI1NzljODU1YjUxYmNlLmpwZw%3D%3D%26sign%3Dyx%3AHufPonuXWhp4CgJ-nIqA1HUzjvc%3D%26tv%3D400_400&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;p&quot;</span><span class="punctuation">:</span> <span class="number">41</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure><h2 id="返回失败"><a href="#返回失败" class="headerlink" title="返回失败"></a>返回失败</h2><ol><li>缺少必要参数则页面会空白</li><li>非必要参数错误则传入的参数不会生效</li><li>必要参数有误则无法获取链接</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> API </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> php </tag>
+            
+            <tag> 开源 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>蓝奏云解析API</title>
+      <link href="/posts/2/"/>
+      <url>/posts/2/</url>
+      
+        <content type="html"><![CDATA[<p>蓝奏云解析，支持获取：文件名、分享者、文件大小、描述、文件链接、文件直链<br>获取到的链接是临时的下载链接，请按需使用。<br>要求PHP版本&gt;&#x3D;7.0</p><span id="more"></span><p>仓库地址：<a href="https://github.com/wzdc/lanzouyunapi">https://github.com/wzdc/lanzouyunapi</a><br>演示地址：<a href="https://api.wzdc.cc/lzy/lanzouyunapi.php">https://api.wzdc.cc/lzy/lanzouyunapi.php</a></p><h1 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h1><ol><li>获取文件名、分享者、文件大小、文件描述、文件链接、文件直链、上传时间</li><li>重定向</li><li>支持带密码文件和带<code>webpage</code>参数的文件</li><li>支持手机UA和电脑UA获取文件，并且可以进行自动切换</li><li>支持缓存链接和验证缓存的链接是否有效</li><li>支持多种数据格式响应</li></ol><h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><h2 id="请求"><a href="#请求" class="headerlink" title="请求"></a>请求</h2><p>请求类型：<code>GET/POST</code><br>请求示例：<a href="https://api.wzdc.cc/lzy/lanzouyunapi.php?data=wzdc">https://api.wzdc.cc/lzy/lanzouyunapi.php?data=wzdc</a></p><table><thead><tr><th>参数</th><th>必填</th><th>默认</th><th>说明</th></tr></thead><tbody><tr><td>mode</td><td>否</td><td>pc</td><td>获取数据方式（可选值：pc、mobile）</td></tr><tr><td>data</td><td>是</td><td></td><td>蓝奏云链接或ID</td></tr><tr><td>pw</td><td>否</td><td></td><td>密码</td></tr><tr><td>types</td><td>否</td><td>json</td><td>返回的数据类型(可选值: text、json、xml)</td></tr><tr><td>redirect</td><td>否</td><td>0</td><td>重定向（可选值：0、1）</td></tr><tr><td>link</td><td>否</td><td>0</td><td>获取文件直链（可选值：0、1）</td></tr><tr><td>auto</td><td>否</td><td>0</td><td>自动切换（可选值：0、1）</td></tr></tbody></table><h3 id="功能说明"><a href="#功能说明" class="headerlink" title="功能说明"></a>功能说明</h3><p> 重定向：开启重定向(redirect)后，服务器会将获取到的链接进行重定向。如果获取链接失败则会返回错误信息，返回的数据类型由你（传入的types参数）决定。<br> 获取文件直链：开启获取直链(link)后，服务器会尝试获取直链，如果失败则会返回原始链接，并告知客户端获取直链失败。(types&#x3D;text除外）。<br> 自动切换：当使用电脑UA获取链接失败就使用手机UA去获取（先用哪个由你传入的<code>mode</code>参数决定）。</p><p>请求示例（开启重定向和获取文件直链）：<a href="https://api.wzdc.cc/lzy/lanzouyunapi.php?data=wzdc&redirect=1&link=1">https://api.wzdc.cc/lzy/lanzouyunapi.php?data=wzdc&amp;redirect=1&amp;link=1</a></p><table><thead><tr><th>参数</th><th>说明</th></tr></thead><tbody><tr><td>1</td><td>开启</td></tr><tr><td>0</td><td>关闭</td></tr></tbody></table><h2 id="返回"><a href="#返回" class="headerlink" title="返回"></a>返回</h2><table><thead><tr><th>参数</th><th>说明</th><th>数据类型</th></tr></thead><tbody><tr><td>code</td><td>状态码</td><td>int</td></tr><tr><td>msg</td><td>信息</td><td>String</td></tr><tr><td>data</td><td>文件信息</td><td>object</td></tr></tbody></table><h3 id="文件信息"><a href="#文件信息" class="headerlink" title="文件信息"></a>文件信息</h3><table><thead><tr><th>参数</th><th>说明</th><th>数据类型</th></tr></thead><tbody><tr><td>name</td><td>文件名</td><td>String</td></tr><tr><td>size</td><td>文件大小</td><td>String</td></tr><tr><td>user</td><td>分享者</td><td>String</td></tr><tr><td>desc</td><td>描述</td><td>String</td></tr><tr><td>time</td><td>上传时间</td><td>String</td></tr><tr><td>url</td><td>链接</td><td>String</td></tr></tbody></table><h3 id="状态码说明"><a href="#状态码说明" class="headerlink" title="状态码说明"></a>状态码说明</h3><table><thead><tr><th>code</th><th>msg</th><th>说明</th></tr></thead><tbody><tr><td>2</td><td>来自缓存</td><td>(部分或全部)数据来自缓存</td></tr><tr><td>1</td><td>获取直链失败</td><td>已经成功获取链接，但获取直链失败</td></tr><tr><td>0</td><td>成功</td><td>获取成功</td></tr><tr><td>-1</td><td>（显示蓝奏云返回的错误信息）</td><td>请求接口时，蓝奏云接口返回的错误信息</td></tr><tr><td>-2</td><td>（显示获取到的错误信息，如果没有则显示获取失败）</td><td>获取网页内容时发生错误，会尝试再次获取蓝奏云提示的错误信息</td></tr><tr><td>-3</td><td>获取失败</td><td>HTML解析错误</td></tr><tr><td>-4</td><td>缺少参数</td><td>缺少参数</td></tr></tbody></table><h3 id="返回示例"><a href="#返回示例" class="headerlink" title="返回示例"></a>返回示例</h3><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;code&quot;</span><span class="punctuation">:</span> <span class="number">0</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;msg&quot;</span><span class="punctuation">:</span> <span class="string">&quot;成功&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;data&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;com.i0b47a46d08a1f3db.apk&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;size&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2.4 M&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;user&quot;</span><span class="punctuation">:</span> <span class="string">&quot;无知的错&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;time&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">null</span></span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;desc&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;url&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://developer.lanzoug.com/file/?UjQCPFtqDj9VXAM7ATRUOFdoAzsCPgBtVjxWfgI3VGUDYQFiDmQFMAJgAGAAMFFgVjQEYFY4AWVRZVAyXWNRflIzAiVbbQ58VWUDPAE5VDBXUgNvAjkAP1ZiVmECb1RiAzUBZA5nBWECcgAwACdRbVY+BDRWPAEwUWBQYl05UXZSIgIlWzsOaFUzA2cBZVR6VzwDNgJyADNWaVZ/AmdUYAM3ATAOZQViAjAAZwBhUWFWOwQ3VmgBYVE3UGVdN1FpUjMCYFs3DmJVZwNmAW1UMFdoA2QCbwBjVmFWNgJwVDQDcwE9DnUFJAInADMAJlE5VmgEPFY+ATFRb1BuXTBRYlJ0AiFbbw43VWYDMwFoVGRXOwMxAmQAOlZgVmECb1RsAzMBeA59BXcCMgA6ACNRbVY9BDdWPgE6UW5QZl01UWhSagJsWyAOL1VzAyIBaFRkVzsDNgJuADJWY1ZiAm9UZAM6AXAOJgU4AiQAawBlUWlWNAQvVjABMlF4UG5dMFF+UmMCZA==&quot;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version=<span class="string">&quot;1.0&quot;</span>?&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">root</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">code</span>&gt;</span>0<span class="tag">&lt;/<span class="name">code</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">msg</span>&gt;</span><span class="symbol">&amp;#x6210;</span><span class="symbol">&amp;#x529F;</span><span class="tag">&lt;/<span class="name">msg</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">data</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">name</span>&gt;</span>com.i0b47a46d08a1f3db.apk<span class="tag">&lt;/<span class="name">name</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">size</span>&gt;</span>2.4 M<span class="tag">&lt;/<span class="name">size</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">user</span>&gt;</span><span class="symbol">&amp;#x65E0;</span><span class="symbol">&amp;#x77E5;</span><span class="symbol">&amp;#x7684;</span><span class="symbol">&amp;#x9519;</span><span class="tag">&lt;/<span class="name">user</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">time</span>&gt;</span><span class="tag">&lt;/<span class="name">time</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">desc</span>&gt;</span><span class="tag">&lt;/<span class="name">desc</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">url</span>&gt;</span>https://developer.lanzoug.com/file/?CW9UalxtAzICCwA4BzJXOwQ7U2sAPFQ5BW9acgYzATAGZFs4C2ECN1EzUzMBMVBhWjhXM1Y4AWUBNQFjUW8DLAloVHNcagNxAjIAPwc/VzMEAVM/ADtUawUxWm0GawE3BjBbPgtiAmZRIVNjASZQbFoyV2dWPAEwATABM1E1AyQJeVRzXDwDZQJkAGQHY1d5BG9TZgBwVGcFOlpzBmMBNQYyW2oLYAJlUWNTNAFgUGBaN1dkVmgBYQFnATRROwM7CWhUNlwwA28CMABlB2tXMwQ7UzQAbVQ3BTJaOgZ0AWEGdltnC3ACI1F0U2ABJ1A4WmRXb1Y+ATEBPwE/UTwDMAkvVHdcaAM6AjEAMAduV2cEaFNhAGZUbgUzWm0GbAE0BjBbIgt4AnBRYVNpASJQbFoxV2RWPgE6AT4BN1E5AzoJMVQ6XCcDIgIkACEHbldnBGhTZgBsVGYFMFpuBmsBMQY/WyoLIwI/UXdTOAFkUGhaOFd8VjABMgEoAT9RPAMsCThUMg==<span class="tag">&lt;/<span class="name">url</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">data</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">root</span>&gt;</span></span><br></pre></td></tr></table></figure><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://developer.lanzoug.com/file/?BmAGOFxtBjdTWlBoUWRRPQY5Bj4CPlM+AGpUfFVgADEBYwJhDGYCN1Y0B2cFNVNiVDYAZAJsA2cGMlQ2XWNTfAZnBiFcagZ0U2NQb1FpUTUGAwZqAjlTbAA0VGNVOAA2ATcCZwxlAmZWJgc3BSJTb1Q8ADACaAMyBjdUZl05U3QGdgYhXDwGYFM1UDRRNVF/Bm0GMwJyU2AAP1R9VTAANAE1AjMMZwJlVmQHYAVkU2NUOQAzAjwDYwZgVGFdN1NrBmcGZFwwBmpTYVA1UT1RNQY5BmECb1MwADdUNFUnAGABcQI+DHcCI1ZzBzQFI1M7VGoAOAJqAzMGOFRqXTBTYAYgBiVcaAY/U2BQYFE4UWEGagY0AmRTaQA2VGNVPgAzATUCewx/AnBWZgc9BSZTb1Q/ADMCagM4BjlUYl01U2oGPgZoXCcGJ1N1UHFROFFhBmoGMwJuU2EANVRgVTgAMAE4AnMMJAI/VnAHbAVgU2tUNgArAmQDMAYvVGpdMFN8BjcGYA==</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> API </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> php </tag>
+            
+            <tag> 开源 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>突破问卷星限制</title>
+      <link href="/posts/1/"/>
+      <url>/posts/1/</url>
+      
+        <content type="html"><![CDATA[<p>这个就是我的博客第一篇文章了！</p><p>用过的人都知道问卷星有很多限制，尤其是不能复制粘贴，每次手敲题目去网上搜寻，找到答案后又要手敲到输入框里，这样可能导致不够时间做。</p><p>我使用的浏览器是 <a href="https://www.google.com/chrome/">Google chrome</a></p><h1 id="破解微信作答限制"><a href="#破解微信作答限制" class="headerlink" title="破解微信作答限制"></a>破解微信作答限制</h1><p>User-Agent Switcher是一个可以修改用户代理(User-Agent，简称UA)的浏览器插件。问卷星是根据你的浏览器UA判断你是不是从微信打开的，把UA改成微信UA，问卷星就会认为你是从微信访问的。</p><ol><li><p>下载并安装 <a href="https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg">User-Agent Switcher</a> 插件</p></li><li><p>打开 <code>User-Agent Switcher</code>选项页</p> <!--右键 `User-Agent Switcher` 图标，点击 `选项` ![](a2.png) 或-->点击 `扩展程序图标` 再点击 `⋮` 再点击 `选项`<p> <img src="/posts/1/a.png"></p></li><li><p>添加一个微信的UA</p></li></ol><p><img src="/posts/1/b.png"></p><p>根据表格填（填完后点击 Add 添加）</p><table><thead><tr><th>标题</th><th>填写的内容</th><th>说明</th></tr></thead><tbody><tr><td>New User-agent name</td><td>wechat</td><td>UA名字</td></tr><tr><td>New User-Agent String</td><td>Mozilla&#x2F;5.0 (Windows NT 6.1; WOW64) AppleWebKit&#x2F;537.36 (KHTML, like Gecko) Chrome&#x2F;81.0.4044.138 Safari&#x2F;537.36 NetType&#x2F;WIFI MicroMessenger&#x2F;7.0.20.1781(0x6700143B) WindowsWechat(0x63070517)</td><td>Windows版微信UA</td></tr><tr><td>Group</td><td>Chrome</td><td>组</td></tr><tr><td>Append?</td><td>Replace</td><td>（默认）</td></tr><tr><td>Indicator Flag</td><td>WIN</td><td>（随便填）</td></tr></tbody></table><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>修改成微信UA：打开 <code>User-Agent Switcher</code> 插件，点击 <code>chrome</code> ， 再点击 <code>Wechat</code><br>修改回默认UA：打开 <code>User-Agent Switcher</code> 插件，点击 <code>chrome</code> ， 再点击 <code>Default</code></p><p>User-Agent Switcher 会把所有页面的UA都修改掉，每次修改UA会自动刷新当前页面。如果需边作答边浏览其他网页使用微信UA打开部分网页可能会受到一些限制（如网站不允许使用微信打开），建议使用无痕模式或其他浏览器浏览其他网页。</p><h1 id="在浏览器中使用微信登录作答"><a href="#在浏览器中使用微信登录作答" class="headerlink" title="在浏览器中使用微信登录作答"></a>在浏览器中使用微信登录作答</h1><ol><li><p><a href="#%E4%BD%BF%E7%94%A8">把UA修改成微信UA</a></p></li><li><p>从微信打开问卷星链接</p></li><li><p>点击一键登录，再复制链接到浏览器打开<br> <img src="/posts/1/c.png"><br> 注意：一定要在微信授权登录页面复制链接<br> <img src="/posts/1/c2.png"><br> <img src="/posts/1/1.PNG"></p></li><li><p>把复制的链接粘贴到chrome浏览器中打开（不是近期登录需要点击“同意”按钮才能登录，近期登录过会自动登录）<br><img src="/posts/1/c3.png"></p></li></ol><h1 id="复制粘贴限制"><a href="#复制粘贴限制" class="headerlink" title="复制粘贴限制"></a>复制粘贴限制</h1><p>使用 <a href="https://chrome.google.com/webstore/detail/copy-paste-pro/epgndihjbcepnbadocaoofjnfaophlio">Copy Paste Pro</a> 插件，可以解决网页不给复制粘贴问题。Copy Paste Pro 是可以让你在禁止复制粘贴的网站使用复制粘贴功能，可以隋开随关，无需刷新页面。建议当需要使用复制粘贴再开启功能，开启后会导致网页部分不能正常点击。</p><p>使用：点击图标后就开启和关闭，绿色勾开启，灰色勾关闭（只能在当前页面生效，当刷新或跳转其他页面后会自动关闭）</p><p>我并不是很推荐使用这个插件，我在使用时遇到了一些问题，我关了还能复制部分文字，不过我觉得问题不大。</p><h1 id="设备限制"><a href="#设备限制" class="headerlink" title="设备限制"></a>设备限制</h1><p>通常情况下，清除cookie可以绕过设备限制。</p><h1 id="更多"><a href="#更多" class="headerlink" title="更多"></a>更多</h1><p>使用<a href="https://www.tampermonkey.net/">油猴</a>脚本可以帮助你突破更多的限制和更快的完成问卷。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 突破限制 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
