@@ -112,7 +112,7 @@
 
   <url>
     <loc>http://www.wzdc.cc/</loc>
-    <lastmod>2023-07-16</lastmod>
+    <lastmod>2023-08-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -120,28 +120,28 @@
   
   <url>
     <loc>http://www.wzdc.cc/tags/php/</loc>
-    <lastmod>2023-07-16</lastmod>
+    <lastmod>2023-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.wzdc.cc/tags/My-Blog/</loc>
-    <lastmod>2023-07-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.wzdc.cc/tags/circumvent-restrictions/</loc>
-    <lastmod>2023-07-16</lastmod>
+    <lastmod>2023-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.wzdc.cc/tags/open-source/</loc>
-    <lastmod>2023-07-16</lastmod>
+    <lastmod>2023-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.wzdc.cc/tags/circumvent-restrictions/</loc>
+    <lastmod>2023-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -150,21 +150,21 @@
   
   <url>
     <loc>http://www.wzdc.cc/categories/tutorial/</loc>
-    <lastmod>2023-07-16</lastmod>
+    <lastmod>2023-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.wzdc.cc/categories/chat/</loc>
-    <lastmod>2023-07-16</lastmod>
+    <lastmod>2023-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.wzdc.cc/categories/API/</loc>
-    <lastmod>2023-07-16</lastmod>
+    <lastmod>2023-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
