@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>软字幕与硬字幕的定义</title>
+      <link href="/posts/12/"/>
+      <url>/posts/12/</url>
+      
+        <content type="html"><![CDATA[<p>网上对这些字幕定义都不一样，这是我通过大量搜索资料得出的我认为比较合理的解释，如果有错误请指正。</p><h1 id="硬字幕"><a href="#硬字幕" class="headerlink" title="硬字幕"></a>硬字幕</h1><p>又称“内嵌字幕”，指的是视频与字幕融为一体，字幕已经成为了视频的一个画面，无法关闭。</p><h1 id="软字幕"><a href="#软字幕" class="headerlink" title="软字幕"></a>软字幕</h1><p>软字幕可以开关、选择不同语言。很多人会将软字幕认为就是“<a href="#%E5%A4%96%E6%8C%82%E5%AD%97%E5%B9%95">外挂字幕</a>”，软字幕不仅限于外挂字幕，内挂字幕、CC字幕均属于软字幕。</p><p><img src="/posts/12/2023-08-17_233414.png" alt="播放器选择字幕图片"></p><h2 id="外挂字幕"><a href="#外挂字幕" class="headerlink" title="外挂字幕"></a>外挂字幕</h2><p>视频文件与字幕文件分开，播放时需要导入字幕。外挂字幕有加载速度快、容易修改的优点。</p><p><img src="/posts/12/2023-08-18_111723.png" alt="外挂字幕"></p><h2 id="内挂字幕"><a href="#内挂字幕" class="headerlink" title="内挂字幕"></a>内挂字幕</h2><p>又称“内封字幕”，很多人会与“<a href="#%E7%A1%AC%E5%AD%97%E5%B9%95">内嵌字幕</a>”搞混。内挂字幕指的是将字幕文件封装进视频文件，但并不是字幕与视频融为一体。字幕组会同时将字体封装进视频里，用户不需要在设备上安装字体也能让字幕使用到字体。对比外挂字幕则需要手动安装字体。</p><p><img src="/posts/12/2023-08-18_112953.png" alt="内挂字幕"></p><h2 id="CC字幕"><a href="#CC字幕" class="headerlink" title="CC字幕"></a>CC字幕</h2><p>CC字幕（Closed Caption ，又称为“隐藏式字幕”），是指在电视节目或视频中提供的附加字幕。目前在DVD&#x2F;BD光盘和电视上广泛使用。但没有在视频平台中广泛使用。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 字幕 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>博客又换主题了</title>
       <link href="/posts/11/"/>
       <url>/posts/11/</url>

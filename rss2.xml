@@ -9,8 +9,27 @@
     <atom:link href="http://www.wzdc.cc/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Hi , welcome to my blog</description>
-    <pubDate>Thu, 29 Jun 2023 07:37:02 GMT</pubDate>
+    <pubDate>Fri, 18 Aug 2023 03:56:23 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>软字幕与硬字幕的定义</title>
+      <link>http://www.wzdc.cc/posts/12/</link>
+      <guid>http://www.wzdc.cc/posts/12/</guid>
+      <pubDate>Thu, 17 Aug 2023 10:22:15 GMT</pubDate>
+      
+      <description>简短的文章让你了解什么是软字幕、什么是硬字幕、什么是外挂、内挂、内嵌、CC字幕。</description>
+      
+      
+      
+      
+      
+      <category domain="http://www.wzdc.cc/tags/subtitles/">字幕</category>
+      
+      
+      <comments>http://www.wzdc.cc/posts/12/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>博客又换主题了</title>

@@ -6,7 +6,7 @@
   <link href="http://www.wzdc.cc/atom.xml" rel="self"/>
   
   <link href="http://www.wzdc.cc/"/>
-  <updated>2023-06-29T07:37:02.197Z</updated>
+  <updated>2023-08-18T03:56:23.027Z</updated>
   <id>http://www.wzdc.cc/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>软字幕与硬字幕的定义</title>
+    <link href="http://www.wzdc.cc/posts/12/"/>
+    <id>http://www.wzdc.cc/posts/12/</id>
+    <published>2023-08-17T10:22:15.000Z</published>
+    <updated>2023-08-18T03:56:23.027Z</updated>
+    
+    
+    <summary type="html">简短的文章让你了解什么是软字幕、什么是硬字幕、什么是外挂、内挂、内嵌、CC字幕。</summary>
+    
+    
+    
+    
+    <category term="字幕" scheme="http://www.wzdc.cc/tags/subtitles/"/>
+    
+  </entry>
   
   <entry>
     <title>博客又换主题了</title>
