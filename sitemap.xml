@@ -149,20 +149,27 @@
   </url>
   
   <url>
-    <loc>http://www.wzdc.cc/tags/subtitles/</loc>
-    <lastmod>2023-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://www.wzdc.cc/tags/open-source/</loc>
     <lastmod>2023-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>http://www.wzdc.cc/tags/subtitles/</loc>
+    <lastmod>2023-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>http://www.wzdc.cc/categories/API/</loc>
+    <lastmod>2023-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>http://www.wzdc.cc/categories/tutorial/</loc>
@@ -173,13 +180,6 @@
   
   <url>
     <loc>http://www.wzdc.cc/categories/chat/</loc>
-    <lastmod>2023-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.wzdc.cc/categories/API/</loc>
     <lastmod>2023-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
