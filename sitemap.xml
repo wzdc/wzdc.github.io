@@ -29,15 +29,6 @@
   </url>
   
   <url>
-    <loc>http://www.wzdc.cc/posts/12/</loc>
-    
-    <lastmod>2023-08-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.wzdc.cc/posts/1/</loc>
     
     <lastmod>2023-07-03</lastmod>
@@ -121,7 +112,7 @@
 
   <url>
     <loc>http://www.wzdc.cc/</loc>
-    <lastmod>2023-09-29</lastmod>
+    <lastmod>2023-10-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -129,35 +120,28 @@
   
   <url>
     <loc>http://www.wzdc.cc/tags/php/</loc>
-    <lastmod>2023-09-29</lastmod>
+    <lastmod>2023-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.wzdc.cc/tags/My-Blog/</loc>
-    <lastmod>2023-09-29</lastmod>
+    <lastmod>2023-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.wzdc.cc/tags/circumvent-restrictions/</loc>
-    <lastmod>2023-09-29</lastmod>
+    <lastmod>2023-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.wzdc.cc/tags/open-source/</loc>
-    <lastmod>2023-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.wzdc.cc/tags/subtitles/</loc>
-    <lastmod>2023-09-29</lastmod>
+    <lastmod>2023-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -165,22 +149,22 @@
 
   
   <url>
-    <loc>http://www.wzdc.cc/categories/API/</loc>
-    <lastmod>2023-09-29</lastmod>
+    <loc>http://www.wzdc.cc/categories/tutorial/</loc>
+    <lastmod>2023-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.wzdc.cc/categories/tutorial/</loc>
-    <lastmod>2023-09-29</lastmod>
+    <loc>http://www.wzdc.cc/categories/API/</loc>
+    <lastmod>2023-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.wzdc.cc/categories/chat/</loc>
-    <lastmod>2023-09-29</lastmod>
+    <lastmod>2023-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
