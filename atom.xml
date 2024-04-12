@@ -6,7 +6,7 @@
   <link href="http://www.wzdc.cc/atom.xml" rel="self"/>
   
   <link href="http://www.wzdc.cc/"/>
-  <updated>2023-06-29T07:37:02.197Z</updated>
+  <updated>2024-04-12T14:33:39.008Z</updated>
   <id>http://www.wzdc.cc/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PHP+NGINX实现临时文件链接</title>
+    <link href="http://www.wzdc.cc/posts/13/"/>
+    <id>http://www.wzdc.cc/posts/13/</id>
+    <published>2024-04-12T13:45:13.000Z</published>
+    <updated>2024-04-12T14:33:39.008Z</updated>
+    
+    
+    <summary type="html">使用 nginx http_auth_request_module 和 PHP （也可以使用其他的编程语言，这里以PHP为例）实现临时文件链接示例。原理是使用签名和时间戳。</summary>
+    
+    
+    
+    <category term="教程" scheme="http://www.wzdc.cc/categories/tutorial/"/>
+    
+    
+    <category term="php" scheme="http://www.wzdc.cc/tags/php/"/>
+    
+    <category term="nginx" scheme="http://www.wzdc.cc/tags/nginx/"/>
+    
+  </entry>
   
   <entry>
     <title>博客又换主题了</title>
