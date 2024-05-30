@@ -31,9 +31,9 @@
     <category term="教程" scheme="http://www.wzdc.cc/categories/tutorial/"/>
     
     
-    <category term="nginx" scheme="http://www.wzdc.cc/tags/nginx/"/>
-    
     <category term="php" scheme="http://www.wzdc.cc/tags/php/"/>
+    
+    <category term="nginx" scheme="http://www.wzdc.cc/tags/nginx/"/>
     
   </entry>
   
