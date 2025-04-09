@@ -31,9 +31,26 @@
     <category term="教程" scheme="http://www.wzdc.cc/categories/tutorial/"/>
     
     
+    <category term="nginx" scheme="http://www.wzdc.cc/tags/nginx/"/>
+    
     <category term="php" scheme="http://www.wzdc.cc/tags/php/"/>
     
-    <category term="nginx" scheme="http://www.wzdc.cc/tags/nginx/"/>
+  </entry>
+  
+  <entry>
+    <title>软字幕与硬字幕的定义</title>
+    <link href="http://www.wzdc.cc/posts/12/"/>
+    <id>http://www.wzdc.cc/posts/12/</id>
+    <published>2023-08-17T10:22:15.000Z</published>
+    <updated>2025-04-09T03:27:42.309Z</updated>
+    
+    
+    <summary type="html">简短的文章让你了解什么是软字幕、什么是硬字幕、什么是外挂、内挂、内嵌、CC字幕。</summary>
+    
+    
+    
+    
+    <category term="字幕" scheme="http://www.wzdc.cc/tags/subtitles/"/>
     
   </entry>
   
